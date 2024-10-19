@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Kumbh Sans";
+  src: url("./assets/fonts/KumbhSans-VariableFont_YOPQ,wght.ttf");
+}
+
+@font-face {
+  font-family: "Roboto Slab";
+  src: url("./assets/fonts/RobotoSlab-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Space Mono";
+  src: url("./assets/fonts/SpaceMono-Regular.ttf");
+}
+
+.hover-soft-red:hover {
+  color: #f87070;
+}
+
+.hover-aqua-blue:hover {
+  color: #70f3f8;
+}
+
+.hover-lavender-purple:hover {
+  color: #d881f8;
+}
+
+.skill {
+  transform: rotate(270deg);
+  width: 60vw;
+  aspect-ratio: 1;
+}
